@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio módulo 02</title>
+    <style>
+
+        /*:root{
+            --cor01: #ebe5c5
+            variavel para substituir a referência pela palavra cor
+            -- font-padrao: arial
+            variavel para substituir arial por fonte-padrao
+         } */
+
+         /*   *{ asterisco é um sletor global
+
+         }*/
+        
+@font-face {
+    font-family: 'robo';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+    body{
+        background-color: rgb(158, 201, 158);
+        
+    }
+    header{
+            background-image: linear-gradient(rgb(33, 141, 81), rgb(13, 87,44), rgb(4, 61, 26), black);
+            
+
+            }
+            header>h1{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                color: beige;
+                text-shadow: 1px 1px 6px black;
+                margin: 0px;
+                padding: 0px;
+              
+            }
+            header>h2{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                color: beige;
+              font-size: 20px;
+             
+            }
+
+            header>p{
+                text-align: center;
+                color: beige;
+                
+            }
+
+            span{
+                padding: 10px;
+            }
+            #índice{
+                text-align: left;
+                color: beige;
+                font-size: 20px;
+                
+            }
+            #home:hover{
+                color: rgb(11, 25, 26);
+                text-decoration: underline;
+                background-color: chartreuse;
+                transition-duration: 0.5s;
+            }
+            #noticias:hover{
+                color: rgb(11, 25, 26);
+                text-decoration: underline;
+                background-color: chartreuse;
+                transition-duration: 0.5s;
+            }
+            #curiosidade:hover{
+                color: rgb(11, 25, 26);
+                text-decoration: underline;
+                background-color: chartreuse;
+                transition-duration: 0.5s;
+            }
+            #Faleconosco:hover{
+                color: rgb(11, 25, 26);
+                text-decoration: underline;
+                background-color: chartreuse;
+                transition-duration: 0.5s;
+                
+            }
+
+
+
+            main{
+                margin: 0px auto 20px auto;
+                padding: 10px 10px 10px 10px;
+                background-color: white;
+                width: 1000px;
+                text-align: center;
+                box-shadow: 10px 10px 60px black;
+                border-radius: 0% 0% 1% 1%;
+                
+            }
+            #parte1{
+                text-align: center;
+                }
+            #parte1>h1{
+                font-family: robo, arial, sans-serif;
+                color: rgb(95, 180, 95);
+                text-align: justify;
+                
+                 
+            }
+            #parte1>h2{
+                font-family: robo, arial, sans-serif;
+                color: rgb(95, 180, 95);
+                background-image: linear-gradient(to right, rgb(136, 222, 217), white); 
+                text-align: justify;
+            }
+            #parte1>p{
+                margin: 15px 0px;
+                text-align: justify;
+                text-indent: 30px;
+                line-height: 2em;
+                font-size: 1em;
+
+                
+
+            }
+           
+
+            #parte2>h3{
+                background-color: rgb(18,92,46);
+                color: white;
+                border-radius: 5% 5% 0% 0%;
+                padding: 15px;
+                margin: -10px -10px 0 px -10px;
+                text-align: justify;
+                box-shadow: 1px 1px 6px black;
+            }
+
+            #parte2{
+                background-color: rgb(128,225,170);
+                text-align: justify;
+                border-radius: 0% 0% 2% 2%;
+                margin: auto;
+                
+            }      
+
+            #parte2>ul{
+                display: inline-block;
+                list-style: '✔';
+
+                /* O guanabara criou uma unica lista e colocou os seguintes comandos: 
+                list-style-position: inside
+                columns: 2
+                list-style-type: '\2714\00A0' (para a setinha)*/
+
+            }
+          footer{
+            background-color: rgb(18,92,46);
+            color: white;
+            text-align: center;
+          }
+                
+
+
+            
+            
+            
+
+
+
+
+
+
+
+    </style>
+   
+
+</head>
+<body>
+    <header>
+        <h1>CURIOSIDADES DA TECNOLOGIA</h1>
+        <h2 id="teste">Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</h2>
+        <div id="índice"></p><span id="home">Home</span><span id="noticias">Noticias</span><span id="curiosidade">Curiosidade</span><span id="Faleconosco">Fale conosco</span></div>
+        
+    </header>
+    <main>
+        <div id="parte1">
+            <h1>Histório do mascote do Android</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores facere, enim voluptate, atque rerum similique nihil iure sit voluptates optio mollitia maxime rem eveniet accusamus libero, repudiandae asperiores nisi consequuntur.</p>
+            <h2>A primeira versão</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione at debitis reiciendis fugit vel ipsum neque voluptas aperiam? Eligendi aut praesentium id aliquid molestias distinctio commodi aliquam consequatur cum assumenda!</p>   
+       
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur veniam .</p>   
+            <h2>Surge um novo mascote</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, neque harum odio cumque quibusdam alias, nesciunt esse provident veniam aperiam fuga qui unde recusandae natus reprehenderit eaque. Velit, assumenda rerum?</p>
+            <picture>
+                <source media="(max-width: 1000px)" srcset="imagens/dan-droids-pq.png" type="image/png">
+                <img src="imagens/dan-droids.png" alt="">
+            </picture>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatum fugit quod quibusdam sit obcaecati accusamus doloremque adipisci unde. Ipsam, debitis accusantium velit earum veritatis exercitationem eaque facere quam blanditiis.</p>
+            <img src="imagens/irina-blok.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum minus facilis accusantium dicta illum tempore aut eius quia praesentium deleniti qui eos beatae vitae, laudantium in molestias odit. Aperiam.</p>
+            <img src="imagens/bugdroid.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi quasi ducimus atque qui non nulla quas eaque. Tempore ab sunt maxime labore mollitia cum, eligendi corporis voluptates laborum voluptas.</p>
+            <iframe width="800" height="600" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="parte2">
+            <h3>Quer aprender mais?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illum ipsum cum porro architecto:.
+                <ul>
+                    <li>1.5 - cupcake</li>
+                    <li>1.6 - donut</li>
+                    <li>3.0 - eclair</li>
+                    <li>2.2 - Froyd</li>
+                    
+                </ul>
+                <ul>
+                    <li>2.3 - geinger</li>
+                    <li>3.0 - horneddd</li>
+                    <li>4.0 - ice cream</li>
+                    <li>4.1 - Jerry Bills</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aperiam reprehenderit perspiciatis quasi commodi tempora, corrupti, amet eaque nostrum error non veritatis dignissimos ducimus, in harum! Distinctio modi similique atque?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facere iste ipsam error? Labore vel dicta explicabo eligendi. Ea minus laboriosam quisquam ullam nobis sit voluptatibus architecto placeat, quibusdam accusamus!</p>
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ex quam sed, tempora architecto ad in nemo? Laborum, numquam non sed iusto corrupti laudantium dolorum quis, ex corporis porro adipisci!</p>
+        </div>
+        
+    </main>
+    <footer>
+        Site criado por Valfredo Felipe
+    </footer>
+</body>
+</html>
